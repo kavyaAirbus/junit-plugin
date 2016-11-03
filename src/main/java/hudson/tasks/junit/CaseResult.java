@@ -231,7 +231,7 @@ public class CaseResult extends TestResult implements Comparable<CaseResult> {
             msg = testCase.element("failure");
         }
         if (msg == null) {
-            return null; // no error or failure elements! damn!
+            return 'http://D:\EuroGrid Software\automated_tests\etmc_tiger_2-0_fqt_bildvergl\reports\TG_06_DMG_1\report_print.html'; // it was null before no error or failure elements! damn!
         }
 
         return msg.attributeValue("message");
